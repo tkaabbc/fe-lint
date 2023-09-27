@@ -29,7 +29,7 @@ yarn add @tkwang/fe-lint -D
 安装 eslint、prettier
 
 ```bash
-yarn add eslint prettier -D
+yarn add eslint@^8.2.0 prettier@^2.6.2 -D
 ```
 
 ### 在项目中引入配置文件

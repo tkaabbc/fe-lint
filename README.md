@@ -29,7 +29,7 @@ yarn add @tkwang/fe-lint -D
 Install ESLint and Prettier:
 
 ```bash
-yarn add eslint prettier -D
+yarn add eslint@^8.2.0 prettier@^2.6.2 -D
 ```
 
 ### Import Configuration Files into Your Project
