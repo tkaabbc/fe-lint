@@ -1,5 +1,5 @@
 {
-  "name": "@tk/fe-lint",
+  "name": "@tkwang/fe-lint",
   "version": "1.0.0",
   "description": "ESLint and Prettier configurations for easy integration into my project",
   "scripts": {
