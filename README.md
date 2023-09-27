@@ -23,7 +23,7 @@ Prettier provides a generic configuration:
 Install `fe-lint` itself:
 
 ```bash
-yarn add @tk/fe-lint -D
+yarn add @tkwang/fe-lint -D
 ```
 
 Install ESLint and Prettier:
@@ -42,7 +42,7 @@ For example, for a TypeScript React project, you can import the `react-ts` confi
 
 ```js
 module.exports = {
-  extends: [require.resolve("@tk/fe-lint/react-ts")],
+  extends: [require.resolve("@tkwang/fe-lint/react-ts")],
 };
 ```
 
@@ -69,7 +69,7 @@ settings: {
 In your `.prettierrc.js` file, simply write the following line:
 
 ```js
-module.exports = require("@tk/fe-lint/prettier");
+module.exports = require("@tkwang/fe-lint/prettier");
 ```
 
 ### Auto Fixing
@@ -83,7 +83,8 @@ For VSCode users, it's recommended to install the following extensions to provid
 
 Once you have installed these extensions, you can enable auto-fixing by adding the following configuration to your VSCode `settings.json`:
 
-> Note: 
+> Note:
+>
 > - The `settings.json` in the VSCode editor menu applies to global settings, which means it will be applied to other projects as well when opened.
 > - VSCode can also recognize `.vscode/settings.json` in the project directory as the configuration for the current project, with higher priority. If you only want to enable auto-fixing for the current project, create `.vscode/settings.json` in your project directory and include the desired configuration.
 
@@ -162,7 +163,7 @@ yarn && yarn link
 ```bash
 yarn link
 
- "@tk/fe-lint"
+ "@tkwang/fe-lint"
 ```
 
 With these steps, any changes you make to the `fe-lint` project will be reflected in your project, allowing you to debug locally.

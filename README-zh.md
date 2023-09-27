@@ -1,7 +1,7 @@
 # fe-lint
 
 `ESlint`和`prettier`配置, 方便在项目中引入.
-基于Airbnb StyleGuide, 并根据自己的风格偏好和经验做相应的调整.
+基于 Airbnb StyleGuide, 并根据自己的风格偏好和经验做相应的调整.
 
 ## 功能介绍
 
@@ -23,7 +23,7 @@ prettier 为一份通用的配置：
 安装 fe-lint 本身
 
 ```bash
-yarn add @tk/fe-lint -D
+yarn add @tkwang/fe-lint -D
 ```
 
 安装 eslint、prettier
@@ -42,7 +42,7 @@ yarn add eslint prettier -D
 
 ```js
 module.exports = {
-  extends: [require.resolve("@tk/fe-lint/react-ts")],
+  extends: [require.resolve("@tkwang/fe-lint/react-ts")],
 };
 ```
 
@@ -71,7 +71,7 @@ settings: {
 在`.prettierrc.js`文件中写入如下配置即可
 
 ```js
-module.exports = require("@tk/fe-lint/prettier");
+module.exports = require("@tkwang/fe-lint/prettier");
 ```
 
 ### 自动修复
@@ -166,7 +166,7 @@ yarn & yarn link
 之后到你的项目目录下执行
 
 ```bash
-yarn link "@tk/fe-lint"
+yarn link "@tkwang/fe-lint"
 ```
 
 到这一步之后，本地 fe-lint 项目中的所有改动就都会反应到你的项目中，就可以在本地进行调试啦
